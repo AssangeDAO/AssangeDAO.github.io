@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link type="text/css" href="dist/reset.css" rel="stylesheet">
+    <link type="text/css" href="dist/styles.css" rel="stylesheet">
+    <title>FreeAssangeDAO</title>
+  </head>
+  <body>
+    <header class="header">
+        <div class="container">
+          <h1>FREE <br>ASSANGE <br><span style="font-weight: 900">DAO</span></h1>
+          <h2>The primary mission of the FreeAssangeDAO is to raise capital to bid on NFTs that will be auctioned by the Assange family, to help with legal fees for Julian Assange’s defence in the case to extradite him to  the United States. </h2>
+          <a id="header-cta" class="button header__cta" href="https://discord.gg/FsR5RkaQ" target="_blank">Join our chat</a>
+        </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <h3>BACKGROUND</h3>
+          <p>The FreeAssangeDAO started to mobilize on December 10th, 2021 when the U.S. government won its appeal of a British court ruling that barred Julian Assange’s extradition to the U.S., meaning that Julian Assange will be sent to the U.S. to face trial unless this is appealed.</p>
+          <p>The FreeAssangeDAO does not have faith that Julian Assange will be able to mentally survive the American prison system and wants to do everything it can to support Julian Assange’s family in these difficult times and help fight this.</p>
+          <p>Shortly after the FreeAssangeDAO Telegram group was formed, Gabriel Shipton joined, who is Julian Assange’s brother. He informed us that an NFT was in the works which was going to be auctioned to help raise funding for the ongoing campaign to free Julian Assange.</p>
+          <p>What happened next was others like Amir Taaki started to step up, offering to donate BIP-1 (the first Bitcoin Improvement Proposal) as an NFT into a Cypherpunk collection for the Assange family to auction.</p>
+          <p>It started to become obvious that the FreeAssangeDAO would be organized to help raise money for the Julian Assange family by mobilizing a group that will bid on NFTs auctioned by the Assange family.</p>
+        </div>
+      </section>
+      <section class="how-to-help" itemscope itemtype="https://schema.org/HowTo">
+        <div class="container">
+          <h3 itemprop="name">HOW TO HELP</h3>
+        <ol>
+          <li itemprop="step">
+            <meta itemprop="position" content="1"/>
+            <span itemprop="text">Are you a cypherpunk OG and have some code or paper of value that you’d be willing to donate as a potential NFT? Consider submitting your collectible for consideration into a Cyperpunk collection. A team of curators will decide which NFTs will be included. Accepted NFTs will be expected to be directly donated to the Assange Family and will be put up for auction in batches. Share these in the #cypherpunk-nfts channnel or send a direct message to Amir#xxxx on Discord.</span>
+          </li>
+          <li>
+            <meta itemprop="position" content="2"/>
+            <span itemprop="text"> Contribute capital to the FreeAssangeDAO which will bid on NFTs the Assange Family is releasing. Left over funds can be used to (...). Note: the DAO has not launched yet, stay tuned!</span>
+          </li>
+          <li>
+            <meta itemprop="position" content="3"/>
+            <span itemprop="text">Compete against the FreeAssangeDAO in bidding on the NFTs! It’s a DAO that will even be happy if we lose the auctions to win the NFTs since we know we have still succeeded in our campaign for raising money for this cause.</span>
+          </li>
+          <li>
+            <meta itemprop="position" content="4"/>
+            <span itemprop="text">Do you have any ideas for what else we can do as a community to help Free Julian Assange? Share them in the #ideas channel.</span>
+          </li>
+        </ol>
+        </div>
+      </section>
+      <section class="how-it-works">
+        <div class="container">
+          <h3>HOW IT WORKS</h3>
+          <p>The DAO will initially be controlled by a multisig but will transition into decentralized governance after the NFT auctions are concluded by the Assange family.</p>
+          <p>Contributors will receive $ASSANGE tokens in return for their contributions pro-rata. This will serve as both the token representing fractional ownership of NFTs from the Cypherpunk Collection that the DAO wins in addition to the governance token of  FreeAssangeDAO. Holders of $ASSANGE can vote on proposals and contribute to the direction of FreeAssangeDAO.</p>
+          <picture>
+            <source type="image/svg+xml" srcset="images/desktop-structure.svg" media="(min-width: 768px)">
+            <source type="image/svg+xml" srcset="images/mobile-structure.svg">
+            <img src="images/desktop-structure.svg" alt="FreeAssangeDAO Structure" loading="lazy" class="how-it-works__image">
+          </picture>
+        </div>
+      </section>
+      <section class="social">
+       <div class="container">
+        <h3>SOCIAL</h3>
+        <div>
+          <ul class="social__list">
+              <li><a class="social__list__link" href="https://twitter.com/FreeAssangeDAO_" target="_blank">Twitter</a></li>
+              <li><a class="social__list__link" href="https://discord.gg/FsR5RkaQ" target="_blank">Discord</a></li>
+              <li><a class="social__list__link" href="https://t.me/FreeAssangeDAO" target="_blank">Telegram</a></li>
+          </ul>
+        </div>
+       </div>
+      </section>
+      <div id="mobile-cta" class="mobile-cta">
+        <div class="container">
+          <div class="mobile-cta__grid">
+            <div class="mobile-cta__flex">
+              <p class="mobile-cta__text">FreeAssange<span style="font-weight: 900">DAO</span></p>
+            </div>
+            <a class="button mobile-cta__button" href="https://discord.gg/FsR5RkaQ" target="_blank">Join our chat</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script>
+      const headerCta = document.getElementById('header-cta');
+      const mobileCta = document.getElementById('mobile-cta');
+
+      function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+
+      document.addEventListener('scroll',  ()=> {
+       isInViewport(headerCta) ? mobileCta.style.display = 'none' : mobileCta.style.display = 'block'
+      }, { passive: true });
+
+    </script>
+    <script type="application/ld+json">
+      { "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "FreeAssangeDAO",
+        "url": "http://www.freeassangedao.org",
+        "logo": "",
+        "foundingDate": "2021",
+        "sameAs": [
+          "https://twitter.com/FreeAssangeDAO_",
+          "https://discord.gg/FsR5RkaQ",
+          "https://t.me/FreeAssangeDAO"
+        ]}
+    </script>
+  </body>
+</html>
