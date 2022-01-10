@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/Inter-Regular.woff2?v=3.19") format("woff2"),
+       url("fonts/Inter-Regular.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/Inter-Bold.woff2?v=3.19") format("woff2"),
+       url("fonts/Inter-Bold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'HappyTimes';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/happy-times-NG_regular_master_web.woff2?v=3.19") format("woff2"),
+       url("fonts/happy-times-NG_regular_master_web.woff?v=3.19") format("woff");
+}
+
+body{
+	color:#fff;
+	font-family:"Inter", sans;
+	font-weight:400;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	margin-bottom:150px;
+}
+
+header{
+	width:100%;
+	margin-bottom:50px;
+}
+
+header img{
+	max-width:40%;
+}
+
+p, li{
+	width:650px;
+	font-size:18px;
+	color:#F3F3F3;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+li{
+	margin-bottom:1em;
+}
+
+li::marker{
+	 font-family:'HappyTimes', serif;
+	 font-weight:400;
+ }
+ 
+em{
+	 font-style:normal;
+	 font-weight:700;
+ }
+ 
+.intro{
+	font-weight:700;
+	font-size:26px;
+	line-height:120%;
+	text-align:center;
+	margin-bottom:30px;
+}
+
+.btn-light{
+	background-color:#DCE0FF;
+	color:#545C9D;
+	font-weight:700;
+	font-size:20px;
+	border:0;
+	line-height:120%;
+}
+
+.btn-light:hover{
+	background-color:#B1B6E2;
+	color:#F6F7FF;
+}
+
+.btn-dark{
+	background-color:#2A2D3F;
+	color:#DCE0FF;
+	font-weight:700;
+	font-size:16px;
+	border:0;
+	line-height:120%;
+}
+
+.btn-dark:hover{
+	background-color:#3F456C;
+}
+
+h1{
+	font-family:"HappyTimes", serif;
+	font-style:400;
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.diagram{
+	width:100%;
+	max-width:900px;
+	margin-top:70px;
+	border:1px solid #2A2D3F;
+	border-radius:4px;
+	padding:20px;
+}
+
+.diagramdesktop{
+	width:100%;
+	max-width:800px;
+}
+
+.diagrammobile{
+	width:100%;
+}
+
+.social{
+	text-align:center;
+}
+
+.social a{
+	width:120px;
+}
+
+@media (max-width: 900px){
+	body{
+	width:100%;
+}
+	p,li{
+	width:100%;
+	}
+}
+
+@media (min-width: 601px){
+	.diagramdesktop{
+		display:block;
+	}
+	
+	.diagrammobile{
+		display:none;
+	}
+}
+
+@media (max-width: 600px){
+
+	
+	.diagramdesktop{
+		display:none;
+	}
+	
+	.diagrammobile{
+		display:block;
+	}
+}
+
+@media (max-width: 450px){
+	
+	header img{
+	max-width:60%;
+	}
+	
+	h1{
+	font-size:32px;
+	}
+	
+	.btn-light{
+	padding-left:0px;
+	padding-right:0px;
+	}
+	
+	.intro{
+		font-size:20px;
+	}
+	
+	p,li{
+		font-size:15px;
+}
+
+	.social a{
+		margin-bottom:20px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
