@@ -3,9 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link type="text/css" href="dist/reset.css" rel="stylesheet">
     <link type="text/css" href="dist/styles.css" rel="stylesheet">
     <title>FreeAssangeDAO</title>
@@ -58,9 +55,9 @@
           <p>The DAO will initially be controlled by a multisig but will transition into decentralized governance after the NFT auctions are concluded by the Assange family.</p>
           <p>Contributors will receive $ASSANGE tokens in return for their contributions pro-rata. This will serve as both the token representing fractional ownership of NFTs from the Cypherpunk Collection that the DAO wins in addition to the governance token of  FreeAssangeDAO. Holders of $ASSANGE can vote on proposals and contribute to the direction of FreeAssangeDAO.</p>
           <picture>
-            <source type="image/svg+xml" srcset="images/desktop-structure.svg" media="(min-width: 768px)">
-            <source type="image/svg+xml" srcset="images/mobile-structure.svg">
-            <img src="images/desktop-structure.svg" alt="FreeAssangeDAO Structure" loading="lazy" class="how-it-works__image">
+            <source type="image/svg+xml" srcset="dist/desktop-structure.svg" media="(min-width: 768px)">
+            <source type="image/svg+xml" srcset="dist/mobile-structure.svg">
+            <img src="dist/desktop-structure.svg" alt="FreeAssangeDAO Structure" loading="lazy" class="how-it-works__image">
           </picture>
         </div>
       </section>
@@ -76,40 +73,11 @@
         </div>
        </div>
       </section>
-      <div id="mobile-cta" class="mobile-cta">
-        <div class="container">
-          <div class="mobile-cta__grid">
-            <div class="mobile-cta__flex">
-              <p class="mobile-cta__text">FreeAssange<span style="font-weight: 900">DAO</span></p>
-            </div>
-            <a class="button mobile-cta__button" href="https://discord.gg/FsR5RkaQ" target="_blank">Join our chat</a>
-          </div>
-        </div>
-      </div>
     </main>
     <footer>
 
     </footer>
 
-    <script>
-      const headerCta = document.getElementById('header-cta');
-      const mobileCta = document.getElementById('mobile-cta');
-
-      function isInViewport(element) {
-        const rect = element.getBoundingClientRect();
-        return (
-                rect.top >= 0 &&
-                rect.left >= 0 &&
-                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-      }
-
-      document.addEventListener('scroll',  ()=> {
-       isInViewport(headerCta) ? mobileCta.style.display = 'none' : mobileCta.style.display = 'block'
-      }, { passive: true });
-
-    </script>
     <script type="application/ld+json">
       { "@context": "https://schema.org",
         "@type": "Organization",
