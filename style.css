@@ -61,12 +61,24 @@ li::marker{
 	 font-family:'HappyTimes', serif;
 	 font-weight:400;
  }
- 
+
 em{
 	 font-style:normal;
 	 font-weight:700;
+   color:#B1B6E2;
  }
- 
+
+ .alert-primary{
+   font-size:14px;
+   color: #B1B6E2;
+   margin-top:10px;
+   padding:5px;
+   padding-left:10px;
+   background:none;
+   border:1px solid #B1B6E2;
+   opacity:0.6;
+}
+
 .intro{
 	font-weight:700;
 	font-size:26px;
@@ -149,7 +161,7 @@ h1{
 	.diagramdesktop{
 		display:block;
 	}
-	
+
 	.diagrammobile{
 		display:none;
 	}
@@ -157,35 +169,35 @@ h1{
 
 @media (max-width: 600px){
 
-	
+
 	.diagramdesktop{
 		display:none;
 	}
-	
+
 	.diagrammobile{
 		display:block;
 	}
 }
 
 @media (max-width: 450px){
-	
+
 	header img{
 	max-width:60%;
 	}
-	
+
 	h1{
 	font-size:32px;
 	}
-	
+
 	.btn-light{
 	padding-left:0px;
 	padding-right:0px;
 	}
-	
+
 	.intro{
 		font-size:20px;
 	}
-	
+
 	p,li{
 		font-size:15px;
 }
