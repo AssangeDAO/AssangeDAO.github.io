@@ -25,6 +25,17 @@
        url("fonts/happy-times-NG_regular_master_web.woff?v=3.19") format("woff");
 }
 
+@font-face {
+  font-family: 'HappyTimes';
+  font-style:  italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/happy-times-NG_italic_master_web.woff2?v=3.19") format("woff2"),
+       url("fonts/happy-times-NG_italic_master_web.woff?v=3.19") format("woff");
+}
+
+
+
 body{
 	color:#fff;
 	font-family:"Inter", sans;
@@ -68,10 +79,25 @@ em{
    color:#B1B6E2;
  }
 
+ blockquote{
+   font-family:'HappyTimes', serif;
+   font-style:italic;
+   font-weight:400;
+   font-size:1.5em;
+   text-align:center;
+   margin-top:60px;
+   margin-bottom:60px;
+ }
+
+ blockquote em{
+   color:#fff;
+ }
+
  .note{
    font-size:14px;
+   text-align:center;
    color: #B1B6E2;
-   margin-top:10px;
+   margin-top:100px;
    padding:5px;
    padding-left:10px;
    background:none;
@@ -80,10 +106,14 @@ em{
    border-radius:3px;
 }
 
+.note a{
+  color:#fff;
+}
+
 .intro{
 	font-weight:700;
-	font-size:26px;
-	line-height:120%;
+	font-size:28px;
+	line-height:125%;
 	text-align:center;
 	margin-bottom:30px;
 }
@@ -123,10 +153,22 @@ h1{
 	margin-bottom:50px;
 }
 
+a{
+  color:#B1B6E2;
+  transition:ease 0.2s;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#6E78BD;
+  text-decoration:none;
+}
+
 .diagram{
 	width:100%;
 	max-width:900px;
-	margin-top:70px;
+	margin-top:40px;
+  margin-bottom:40px;
 	border:1px solid #2A2D3F;
 	border-radius:4px;
 	padding:20px;
@@ -195,7 +237,7 @@ h1{
 	padding-right:0px;
 	}
 
-	.intro{
+	.intro, blockquote, blockquote em{
 		font-size:20px;
 	}
 
