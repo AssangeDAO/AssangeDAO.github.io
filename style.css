@@ -122,10 +122,29 @@ em{
 	background-color:#DCE0FF;
 	color:#545C9D;
 	font-weight:700;
+  width:250px;
 	font-size:20px;
 	border:0;
 	line-height:120%;
+  margin-bottom:60px;
 }
+
+.btn-img{
+  display:inline-block;
+  width:22px;
+  height:22px;
+  margin-right:8px;
+  vertical-align:-6px;
+}
+
+.st0{
+    transition: ease 0.3s;
+}
+
+.btn-light:hover .st0{
+  fill:#fff;
+}
+
 
 .btn-light:hover{
 	background-color:#B1B6E2;
