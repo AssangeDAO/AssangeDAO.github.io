@@ -137,12 +137,12 @@ em{
   vertical-align:-6px;
 }
 
-.button-1 {
-	margin-right: 30px
-}
-
-.button-2 {
-	margin-left: 30px
+.btn-img-2{
+  display:inline-block;
+  width:22px;
+  height:22px;
+  margin-right:8px;
+  vertical-align:-3px;
 }
 
 .st0{
@@ -210,6 +210,18 @@ a:hover{
 	width:100%;
 }
 
+.cta{
+	text-align:center;
+  width:100;
+}
+
+.cta a{
+	width:250px;
+  height:57px;
+  margin-top:0;
+  margin-bottom:20px;
+}
+
 .social{
 	text-align:center;
 }
@@ -248,7 +260,6 @@ a:hover{
 		display:block;
 	}
 }
-
 @media (max-width: 450px){
 
 	header img{
