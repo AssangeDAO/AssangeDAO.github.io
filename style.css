@@ -137,6 +137,14 @@ em{
   vertical-align:-6px;
 }
 
+.button-1 {
+	margin-right: 30px
+}
+
+.button-2 {
+	margin-left: 30px
+}
+
 .st0{
     transition: ease 0.3s;
 }
