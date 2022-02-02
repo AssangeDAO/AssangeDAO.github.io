@@ -217,7 +217,7 @@ a:hover{
 
 .cta a{
 	width:250px;
-  height:57px;
+  min-height:57px;
   margin-top:0;
   margin-bottom:20px;
 }
