@@ -44,7 +44,7 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:60px;
-	margin-bottom:150px;
+	margin-bottom:50px;
 }
 
 header{
@@ -62,6 +62,10 @@ p, li{
 	color:#F3F3F3;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+p{
+  margin-bottom:25px;
 }
 
 li{
@@ -99,12 +103,21 @@ em{
    text-align:center;
    color: #B1B6E2;
    margin-top:100px;
+   margin-bottom:50px;
    padding:5px;
    padding-left:10px;
    background:none;
    border:1px solid #B1B6E2;
    opacity:0.6;
    border-radius:3px;
+}
+
+.legal{
+  font-size:14px;
+  color: #B1B6E2;
+  background:none;
+  opacity:0.6;
+  margin-bottom:10px;
 }
 
 .note a{
@@ -154,7 +167,6 @@ em{
   fill:#fff;
 }
 
-
 .btn-light:hover{
 	background-color:#B1B6E2;
 	color:#F6F7FF;
@@ -179,6 +191,14 @@ h1{
 	text-align:center;
 	margin-top:50px;
 	margin-bottom:50px;
+}
+
+h2{
+	font-family:"HappyTimes", serif;
+	font-style:400;
+  font-size:26px;
+	text-align:center;
+	margin-top:50px;
 }
 
 a{
