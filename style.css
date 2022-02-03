@@ -77,6 +77,7 @@ em{
 	 font-style:normal;
 	 font-weight:700;
    color:#B1B6E2;
+    transition:ease 0.2s;
  }
 
  blockquote{
@@ -186,7 +187,7 @@ a{
   text-decoration:none;
 }
 
-a:hover{
+a:hover, a em:hover{
   color:#6E78BD;
   text-decoration:none;
 }
