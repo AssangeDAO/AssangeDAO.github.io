@@ -1,2 +1,2 @@
-# FreeAssangeDAO-Website
-Website for FreeAssangeDAO.
+# AssangeDAO-Website
+Website for AssangeDAO.
