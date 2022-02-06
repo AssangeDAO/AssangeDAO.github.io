@@ -148,9 +148,8 @@ em{
    /* iOS button fix */ 
 @supports (-webkit-touch-callout: none) {
    /* CSS specific to iOS devices */ 
-	.btn-light{line-height:250% !important;
-	.btn-dark{line-height:250% !important;
-}
+	.btn-light{line-height:250% !important;}
+	.btn-dark{line-height:250% !important;}
 }
 
 .btn-img{
