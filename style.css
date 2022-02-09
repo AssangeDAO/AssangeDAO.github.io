@@ -43,7 +43,7 @@ body{
 	width:800px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:60px;
+	margin-top:0px;
 	margin-bottom:50px;
 }
 
@@ -112,6 +112,25 @@ em{
    border-radius:3px;
 }
 
+.note-token{
+  overflow-wrap: break-word;
+  margin-top:30px;
+  transition:ease 0.2s;
+}
+
+.note-token:hover{
+  background-color:#2A2D3F;
+}
+
+.note-token em{
+  text-decoration:underline 1px solid;
+}
+
+.note-token em:hover{
+    color: #B1B6E2;
+    text-decoration:underline 1px solid;
+}
+
 .legal{
   font-size:14px;
   color: #B1B6E2;
@@ -145,9 +164,9 @@ em{
   margin-right:10px;
 }
 
-   /* iOS button fix */ 
+   /* iOS button fix */
 @supports (-webkit-touch-callout: none) {
-   /* CSS specific to iOS devices */ 
+   /* CSS specific to iOS devices */
 	.btn-light{line-height:250% !important;}
 	.btn-dark{line-height:250% !important;}
 }
