@@ -49,6 +49,7 @@ body{
 
 header{
 	width:100%;
+  margin-top:80px;
 	margin-bottom:50px;
 }
 
@@ -113,9 +114,18 @@ em{
 }
 
 .note-token{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
   overflow-wrap: break-word;
-  margin-top:30px;
+  margin-top:0;
+  padding:5px;
+  text-align:center;
   transition:ease 0.2s;
+  background-color:#306DE2;
+	color:#F6F7FF;
+  z-index: 2;
 }
 
 .note-token:hover{
@@ -124,6 +134,7 @@ em{
 
 .note-token em{
   text-decoration:underline 1px solid;
+  color:#F6F7FF;
 }
 
 .note-token em:hover{
@@ -262,6 +273,7 @@ a:hover, a em:hover{
 .cta{
 	text-align:center;
   width:100;
+  z-index: 1;
 }
 
 .cta a{
